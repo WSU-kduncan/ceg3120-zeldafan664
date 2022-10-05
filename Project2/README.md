@@ -5,31 +5,31 @@
 ## Part 1 ( / 5)
 
 
-1. VPC created & configured & role described
+1. VPC created & configured & role described\
     -The role of the VPC is to build a virtual network in the AWS cloud, without any VPN's or hardware required. 
     
-2. Subnet created & configured & role described
+2. Subnet created & configured & role described\
     -A subnet is a range of IP addresses in your VPC. You can attach AWS resources, such as EC2 instances into a user-specified subnet. 
-3. Internet gateway created & configured & role described
+3. Internet gateway created & configured & role described\
     -An internet gateway provides a target in your VPC route tables for internet-routable traffic. For communication using IPv4, the internet gateway also      performs network address translation (NAT).
-4. Route table created and configured & role described
+4. Route table created and configured & role described\
     -The rold of the route table is to control where network traffic is directed. Each subnet in your VPC must be associated with a route table, which controls the routing for the subnet (subnet route table). You can explicitly associate a subnet with a particular route table.
-5. Security group created and configured & role described
+5. Security group created and configured & role described\
     -A security group controls the traffic that is allowed to reach and leave the resources that it is associated with. For example, after you associate a security group with an EC2 instance, it controls the inbound and outbound traffic for the instance. When you create a VPC, it comes with a default security group.
 
 ## Part 2 ( / 10)
 
 1. Instance details
-   - AMI selected: Ubuntu
-   - default username of the instance type selected
+   - AMI selected: Ubuntu\
+   - default username of the instance type selected:
         ubuntu
 
    - Instance type selected: t2.micro
-2. How to attach instance to VPC
+2. How to attach instance to VPC\
     -After selecting "Launch Instance", edit the network settings and select your previously created VPC from the dropdown menu. 
-3. Public IP address auto-assign - yay or nay and why?
+3. Public IP address auto-assign - yay or nay and why?\
     -Gonna be a no from me dawg. I'd rather manually assign the IP.
-4. How to create and attach storage volume to instance
+4. How to create and attach storage volume to instance\
     -On the configure storage menu, just select how many GiB of storage you would like and of what type. (I stuck with 8 GiB og gp2).
 5. How to tag instance with "Name" of "YOURLASTNAME-instance"
     Under Tags, set the Key to Name and the value to "YOURLASTNAME-Instance
