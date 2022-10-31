@@ -74,14 +74,11 @@ All said and done, your template should do the following:
    - Description of how file is configured
 2. Document how to SSH in between the systems utilizing their private IPs.
 3. **_HAProxy configuration & documentation requirements_**
-   - How to set up a HAProxy load balancer
-     - What file(s) where modified & their location
-     -/etc/haproxy/haproxy.cfg
-     - What configuration(s) were set (if any)
-     -(see config screenshot)
-     - How to restart the service after a configuration change
-     -sudo systemctl restart haproxy
-     - Resources used (websites)
+   -/etc/haproxy/haproxy.cfg
+   -(see config screenshot)
+   -sudo systemctl restart haproxy
+   - Resources used (websites)
+   - https://linuxhint.com/how-to-install-and-configure-haproxy-load-balancer-in-linux/
 4. **_Webserver 1 & 2 configuration & documentation requirements_**
    - How set up a webserver
      - What file(s) were modified & their location
