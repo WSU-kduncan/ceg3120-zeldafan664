@@ -73,12 +73,12 @@ All said and done, your template should do the following:
 1. Create an `/etc/hosts` OR `.ssh/config` file on each system that correlates hostnames to private IPs of systems within the subnet (your instances).
    - Description of how file is configured
 2. Document how to SSH in between the systems utilizing their private IPs.
-3. **_HAProxy configuration & documentation requirements_**
-   -/etc/haproxy/haproxy.cfg
-   -(see config screenshot)
-   -sudo systemctl restart haproxy
-   - Resources used (websites)
-   - https://linuxhint.com/how-to-install-and-configure-haproxy-load-balancer-in-linux/
+3. **_HAProxy configuration & documentation requirements_**/
+    - /etc/haproxy/haproxy.cfg/
+    - (see config screenshot)/
+    - sudo systemctl restart haproxy/
+    - Resources used (websites)/
+    - https://linuxhint.com/how-to-install-and-configure-haproxy-load-balancer-in-linux/
 4. **_Webserver 1 & 2 configuration & documentation requirements_**
    - How set up a webserver
      - What file(s) were modified & their location
